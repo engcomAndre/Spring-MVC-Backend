@@ -1,0 +1,5 @@
+package com.andre.cursomc.repositories;
+
+public class CategoriasRepository {
+
+}

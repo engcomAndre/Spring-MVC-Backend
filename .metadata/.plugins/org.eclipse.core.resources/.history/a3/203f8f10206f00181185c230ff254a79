@@ -1,7 +1,5 @@
 package com.andre.cursomc.resources;
 
-import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,9 +21,17 @@ public class CategoriaResource {
 	
 	@RequestMapping(value= "/{id}" ,method=RequestMethod.GET)
 	public ResponseEntity<?> find(@PathVariable Integer id) {
-		Categoria obj = service.buscar(id);
+		Categoria obj id=
 				
-		return ResponseEntity.ok().body(obj);
+		Categoria cat1 = new Categoria(1, "Informática");
+		Categoria cat2 = new Categoria(2, "Escritório");
+
+		
+		List<Categoria> categorias = new ArrayList<Categoria>();
+		categorias.add(cat1);
+		categorias.add(cat2);
+
+		return categorias;
 	}
 
 }
