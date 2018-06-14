@@ -1,0 +1,5 @@
+package com.andre.cursomc.services;
+
+public class CategoriaService {
+
+}

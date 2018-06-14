@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.andre.cursomc.repositories.CategoriasRepository&apos; to &apos;CategoriaRepository&apos;&#x0D;&#x0A;- Original project: &apos;_cursomc&apos;&#x0D;&#x0A;- Original element: &apos;com.andre.cursomc.repositories.CategoriasRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;com.andre.cursomc.repositories.CategoriaRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CategoriasRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.andre.cursomc.repositories{CategoriasRepository.java[CategoriasRepository" matchStrategy="1" name="CategoriaRepository" qualified="false" references="true" similarDeclarations="false" stamp="1528903897503" textual="false" version="1.0"/>
+</session>
