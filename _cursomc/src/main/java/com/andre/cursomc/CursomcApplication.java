@@ -9,10 +9,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.andre.cursomc.domain.Categoria;
 import com.andre.cursomc.domain.Cidade;
+import com.andre.cursomc.domain.Cliente;
+import com.andre.cursomc.domain.Endereco;
 import com.andre.cursomc.domain.Estado;
 import com.andre.cursomc.domain.Produto;
+import com.andre.cursomc.domain.enums.TipoCliente;
 import com.andre.cursomc.repositories.CategoriaRepository;
 import com.andre.cursomc.repositories.CidadeRepository;
+import com.andre.cursomc.repositories.ClienteRepository;
+import com.andre.cursomc.repositories.EnderecoRepository;
 import com.andre.cursomc.repositories.EstadoRepository;
 import com.andre.cursomc.repositories.ProdutoRepository;
 
@@ -26,10 +31,10 @@ public class CursomcApplication implements CommandLineRunner {
 	CidadeRepository cidadeRepository;
 	@Autowired
 	EstadoRepository estadoRepository;
-//	@Autowired
-//	ClienteRepository clienteRepository;
-//	@Autowired
-//	EnderecoRepository enderecoRepository;
+	@Autowired
+	ClienteRepository clienteRepository;
+	@Autowired
+	EnderecoRepository enderecoRepository;
 	
 
 	public static void main(String[] args) {
@@ -68,16 +73,16 @@ public class CursomcApplication implements CommandLineRunner {
 		estadoRepository.save(Arrays.asList(est1,est2));
 		cidadeRepository.save(Arrays.asList(c1,c2,c3));		
 		
-//		Cliente cli1  = new Cliente(null,"Maria da Silva","maria@gmail.com","12345678911",TipoCliente.PESSOAFISICA);
-//		cli1.getTelefones().addAll(Arrays.asList("1234568900","142536789"));
-//		
-//		Endereco e1 =new Endereco(null, "Rua Flores...", "300", "Apto303", "Jardim", "61604555",cli1, c1);
-//		Endereco e2 =new Endereco(null, "Rua Aveida...", "31", "Sala 500", "Centro", "61600555",cli1, c2);		
-//		
-//		cli1.getEnderecos().addAll(Arrays.asList(e1,e2));
-//		
-//		clienteRepository.save(Arrays.asList(cli1));
-//		enderecoRepository.save(Arrays.asList(e1,e2));
+		Cliente cli1  = new Cliente(null,"Maria da Silva","maria@gmail.com","12345678911",TipoCliente.PESSOAFISICA);
+		cli1.getTelefones().addAll(Arrays.asList("1234568900","142536789"));
+		
+		Endereco e1 =new Endereco(null, "Rua Flores...", "300", "Apto303", "Jardim", "61604555",cli1, c1);
+		Endereco e2 =new Endereco(null, "Rua Aveida...", "31", "Sala 500", "Centro", "61600555",cli1, c2);		
+		
+		cli1.getEnderecos().addAll(Arrays.asList(e1,e2));
+		
+		clienteRepository.save(Arrays.asList(cli1));
+		enderecoRepository.save(Arrays.asList(e1,e2));
 		
 	}
 }
