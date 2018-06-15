@@ -16,7 +16,7 @@ public class CategoriaService {
 		Categoria obj = catrepo.findOne(id);
 		if(obj == null) {
 			throw new ObjectNotFoundException(
-					"Objeto não encontrado ! Id : " + id
+					"Objeto não encontrado!! Id : " + id
 					+ ", Tipo : " + Categoria.class.getName()); 
 		}
 		return obj;
