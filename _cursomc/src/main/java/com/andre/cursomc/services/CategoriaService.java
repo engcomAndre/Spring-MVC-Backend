@@ -10,16 +10,21 @@ import com.andre.cursomc.services.exception.ObjectNotFoundException;
 @Service
 public class CategoriaService {
 	@Autowired
-	private CategoriaRepository catrepo;
+	private CategoriaRepository repo;
 	
 	public Categoria buscar(Integer id) {
-		Categoria obj = catrepo.findOne(id);
+		Categoria obj = repo.findOne(id);
 		if(obj == null) {
 			throw new ObjectNotFoundException(
 					"Objeto não encontrado!! Id : " + id
 					+ ", Tipo : " + Categoria.class.getName()); 
 		}
 		return obj;
+	}
+	
+	public Categoria insert(Categoria obj) {
+		obj.setId(null);
+		return repo.save(obj);				
 	}
 
 }
