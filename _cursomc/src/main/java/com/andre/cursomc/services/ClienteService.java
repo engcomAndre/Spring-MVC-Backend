@@ -84,7 +84,8 @@ public class ClienteService {
 									  objNewDTO.getCpfOuCnpj(), 
 									  TipoCliente.toEnum(objNewDTO.getTipoCliente()));
 		
-		//Cidade cidade = new Cidade(objNewDTO.getCidadeId(),null,null);
+		/*...Another Option...*/
+		/*Cidade cidade = new Cidade(objNewDTO.getCidadeId(),null,null);*/
 		
 		Cidade cidade = cidadeRepository.findOne(objNewDTO.getCidadeId());
 		
