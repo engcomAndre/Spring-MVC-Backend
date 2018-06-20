@@ -12,6 +12,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.MapsId;
 import javax.persistence.OneToOne;
 
+import org.hibernate.cfg.annotations.Nullability;
+
 import com.andre.cursomc.domain.enums.EstadoPagamento;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -37,7 +39,7 @@ public abstract class Pagamento implements Serializable{
 	public Pagamento(Integer id, EstadoPagamento estadoPagamento, Pedido pedido) {
 		super();
 		this.id = id;
-		this.estadoPagamento = estadoPagamento.getCod();
+		this.estadoPagamento = (estadoPagamento == null)? null : estadoPagamento.getCod();
 		this.pedido = pedido;
 	}
 
