@@ -5,7 +5,72 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-06-20T07:34:37Z</updated>
+  <updated>2018-06-20T13:26:40Z</updated>
+  <entry>
+    <title>Spring Tips: Season 4 Recap</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/06/20/spring-tips-season-4-recap" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2018-06-20:3314</id>
+    <updated>2018-06-20T13:26:40Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! We&amp;rsquo;re at the end of another season of &lt;em&gt;Spring Tips&lt;/em&gt;. I&amp;rsquo;ll be back in a few months with even more &lt;em&gt;Spring Tips&lt;/em&gt;, and we&amp;rsquo;ll continue our journey through aspects of the ecosystem large and small. This season, as with all seasons, has been fun for me to put together. It is a mix of brand new stuff and older stuff that we get to review in a new light. As always, I do these for you and am &lt;a href="mailto:josh@joshlong.com"&gt;always&lt;/a&gt; eager &lt;a href="http://twitter.com/Starbuxman"&gt;to hear&lt;/a&gt; about what regions of Springdom you&amp;rsquo;d like illuminated.&lt;/p&gt;
+&lt;p&gt;Anyway, here&amp;rsquo;s a recap of the things we&amp;rsquo;ve looked at in previous installments from seasons 1-4. Enjoy! &lt;/p&gt;&lt;h2&gt;&lt;a href="#season-1" class="anchor" name="season-1"&gt;&lt;/a&gt;Season 1&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/10/05/spring-tips-functional-reactive-endpoints-with-spring-framework-5-0"&gt;Functional Reactive Endpoints with Spring Framework 5.0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/10/13/spring-tips-a-gentle-introduction-to-spring-integration"&gt;Spring Integration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/10/19/spring-tips-the-kotlin-programming-language"&gt;The Kotlin Programming Language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/10/27/spring-tips-circuit-breakers"&gt;Circuit Breakers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/11/02/spring-tips-spring-aware-beans"&gt;Spring Aware Beans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/11/09/spring-tips-spring-cloud-stream"&gt;Spring Cloud Stream&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/11/16/spring-tips-spring-cloud-data-flow"&gt;Spring Cloud Data Flow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/11/23/spring-tips-cloud-foundry"&gt;Cloud Foundry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/11/30/spring-tips-jta"&gt;JTA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/12/07/spring-tips-bootiful-dashboards"&gt;Bootiful Dashboards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2016/12/14/spring-tips-demystifying-bootiful-magic"&gt;Demystifying Bootiful Magic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#season-2" class="anchor" name="season-2"&gt;&lt;/a&gt;Season 2&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/01/26/spring-tips-couchbase"&gt;Couchbase&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/02/01/spring-tips-spring-batch"&gt;Spring Batch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/02/08/spring-tips-distributed-tracing-with-zipkin"&gt;Distributed Tracing with Zipkin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/02/15/spring-tips-jooq"&gt;JOOQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/02/22/spring-tips-mybatis"&gt;MyBatis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/03/01/spring-tips-programmatic-bean-registration-in-spring-framework-5"&gt;Programmatic Bean Registration in Spring Framework 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/03/08/spring-tips-server-sent-events-sse"&gt;Server Sent Events (SSE)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/03/15/spring-tips-the-spring-web-flux-reactive-client"&gt;the Spring Web Flux Reactive Client&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/03/22/spring-tips-servlet-container-deployment-options"&gt;Servlet Container Deployment Options&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/03/29/spring-tips-the-spring-framework-utils-classes"&gt;The Spring Framework *Utils Classes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/04/05/spring-tips-creating-a-spring-security-oauth-auth-service"&gt;Creating a Spring Security OAuth Auth Service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#season-3" class="anchor" name="season-3"&gt;&lt;/a&gt;Season 3&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/09/27/spring-tips-reactive-websockets-with-spring-framework-5"&gt;Reactive WebSockets with Spring Framework 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/10/11/spring-tips-bootiful-reactive-scala"&gt;Bootiful, Reactive Scala&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/10/18/spring-tips-bootiful-jax-rs"&gt;Bootiful JAX-RS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/10/25/spring-tips-spring-cloud-contract-http"&gt;Spring Cloud Contract (HTTP)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/11/01/spring-tips-spring-shell"&gt;Spring Shell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/11/08/spring-tips-bootiful-kotlin-redux"&gt;Bootiful Kotlin Redux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/11/15/spring-tips-the-spring-boot-build-plugin"&gt;Spring Boot Build Plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/11/22/spring-tips-bootiful-testing"&gt;Bootiful Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/11/29/spring-tips-spring-cloud-gateway"&gt;Spring Cloud Gateway&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/12/04/spring-tips-spring-tool-suite-4"&gt;Spring Tool Suite 4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/12/15/spring-tips-bootiful-banners"&gt;Bootiful Banners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#season-4" class="anchor" name="season-4"&gt;&lt;/a&gt;Season 4&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/04/04/spring-tips-spring-cloud-stream-kafka-streams"&gt;Spring Cloud Stream Kafka Streams&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/05/09/spring-tips-spring-security-5-oauth-clients"&gt;Spring Security 5 OAuth Clients&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/05/16/spring-tips-project-riff-and-spring-cloud-function"&gt;Project Riff and Spring Cloud Function&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/05/02/spring-tips-metrics-collection-in-spring-boot-2-with-micrometer"&gt;Metrics Collection in Spring Boot 2 with Micrometer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/04/25/spring-tips-spring-statemachine"&gt;Spring Statemachine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/04/18/spring-tips-redis"&gt;Redis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/04/11/spring-tips-the-cloud-foundry-java-client"&gt;The Cloud Foundry Java Client&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/05/23/spring-tips-apache-camel"&gt;Apache Camel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/05/30/spring-tips-jdbc"&gt;JDBC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/06/06/spring-tips-jpa"&gt;JPA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/06/13/spring-tips-spring-fu"&gt;Spring Fu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for watching, and, as always, we&amp;rsquo;ll see you next time! :)&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>The Road to Reactive Spring Cloud</title>
     <link rel="alternate" href="https://spring.io/blog/2018/06/20/the-road-to-reactive-spring-cloud" />
@@ -956,18 +1021,5 @@ dependencies {
 &lt;div class="paragraph"&gt;
 &lt;p&gt;Please reach out on &lt;a href="https://github.com/spring-cloud/spring-cloud-skipper/issues"&gt;GitHub Issues&lt;/a&gt;, &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-skipper"&gt;Stack Overflow&lt;/a&gt;, and the &lt;a href="https://gitter.im/spring-cloud/spring-cloud-skipper"&gt;Gitter channel&lt;/a&gt; with questions, feedback or contributions.&lt;/p&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: JPA</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/06/06/spring-tips-jpa" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-06-06:3292</id>
-    <updated>2018-06-06T08:01:00Z</updated>
-    <content type="html">&lt;p&gt;speaker: &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hi Spring fans! In this installment we look at the Java Persistence API (JPA) and its most ubiquitous implementation Hibernate. We look at basic Spring support for JPA, Spring Boot&amp;rsquo;s auto-configuration and supported configuration properties, mapped superclasses, auditing (using Spring Data&amp;rsquo;s JPA auditing facility) and journaling (using the Hibernate Envers project and Spring Data Envers).&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2E8_0Qxi6Tg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content>
   </entry>
 </feed>

@@ -656,3 +656,15 @@ java.lang.OutOfMemoryError: Java heap space
 	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:696)
 	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:379)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-20 09:48:49.350
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-20 09:48:49.362
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.launching 4 107 2018-06-20 11:09:10.303
+!MESSAGE Launch configuration Tomcat.1 references non-existing project cursomc.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2018-06-20 11:09:15.402
+!MESSAGE Launch configuration Tomcat.1 references non-existing project cursomc.
