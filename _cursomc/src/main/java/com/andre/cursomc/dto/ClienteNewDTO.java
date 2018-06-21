@@ -2,31 +2,51 @@ package com.andre.cursomc.dto;
 
 import java.io.Serializable;
 
-public class ClienteNewDTO implements Serializable{
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+
+public class ClienteNewDTO implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	//Cliente Class domain atributes	
+	// Cliente Class domain atributes
+	@NotEmpty(message = "Preenchimento Obrigatório")
+	@Length(min = 5, max = 120, message = "Tamanho do campo entre 5  e 120 caracteres")
 	private String nome;
+
+	@NotEmpty()
+	@Email
 	private String email;
-	private String cpfOuCnpj;	
+
+	@NotEmpty(message = "Preenchimento Obrigatório")
+	private String cpfOuCnpj;
 	private Integer tipoCliente;
-	
-	
-	//Endereço Class domain atributes
+
+	// Endereço Class domain atributes
+	@NotEmpty(message = "Preenchimento Obrigatório")
 	private String logradouro;
+
+	@NotEmpty(message = "Preenchimento Obrigatório")
 	private String numero;
+
 	private String complemento;
+
+	@NotEmpty(message = "Preenchimento Obrigatório")
 	private String bairro;
+
+	@NotEmpty(message = "Preenchimento Obrigatório")
 	private String cep;
-	
+
+	@NotEmpty(message = "Preenchimento Obrigatório")
 	private String telefone1;
 	private String telefone2;
 	private String telefone3;
-	
+
 	private Integer cidadeId;
-	
-	public ClienteNewDTO() {}
+
+	public ClienteNewDTO() {
+	}
 
 	public String getNome() {
 		return nome;
@@ -130,16 +150,6 @@ public class ClienteNewDTO implements Serializable{
 
 	public void setCidadeId(Integer cidadeId) {
 		this.cidadeId = cidadeId;
-	}	
+	}
 
 }
-
-
-
-
-
-
-
-
-
-
