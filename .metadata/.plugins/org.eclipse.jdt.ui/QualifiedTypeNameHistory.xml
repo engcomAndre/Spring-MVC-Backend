@@ -20,7 +20,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.andre.cursomc.dto.CategoriaDTO"/>
 <fullyQualifiedTypeName name="java.util.stream.Collector"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
@@ -47,4 +46,15 @@
 <fullyQualifiedTypeName name="org.hibernate.validator.constraints.Email"/>
 <fullyQualifiedTypeName name="org.hibernate.validator.constraints.Length"/>
 <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="org.ccil.cowan.tagsoup.ElementType"/>
+<fullyQualifiedTypeName name="kotlin.annotation.Retention"/>
+<fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="javax.validation.Constraint"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.web.accept.ContentNegotiationStrategy"/>
+<fullyQualifiedTypeName name="javax.validation.ConstraintValidatorContext"/>
 </qualifiedTypeNameHistroy>
