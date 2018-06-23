@@ -6,6 +6,9 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import com.andre.cursomc.services.validation.ClienteInsert;
+
+@ClienteInsert
 public class ClienteNewDTO implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -21,6 +24,7 @@ public class ClienteNewDTO implements Serializable {
 
 	@NotEmpty(message = "Preenchimento Obrigatório")
 	private String cpfOuCnpj;
+	
 	private Integer tipoCliente;
 
 	// Endereço Class domain atributes
