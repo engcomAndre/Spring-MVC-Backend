@@ -1559,3 +1559,9 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4
 
 !ENTRY org.eclipse.jface.text 2 0 2018-06-25 08:55:15.198
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 09:15:08.156
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 09:15:08.181
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
