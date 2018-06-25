@@ -3,8 +3,11 @@ package com.andre.cursomc.services;
 import java.util.Calendar;
 import java.util.Date;
 
+import org.springframework.stereotype.Service;
+
 import com.andre.cursomc.domain.PagamentoComBoleto;
 
+@Service
 public class BoletoService {
 	public void preencherPagamentoComBoleto(PagamentoComBoleto pagto,Date instanteDoPedido) {
 		Calendar cal =  Calendar.getInstance();

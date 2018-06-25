@@ -10,6 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
 public class JacksonConfig {
+	
 	@Bean
 	public Jackson2ObjectMapperBuilder objectMapperBuilder() {
 		Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder() {
@@ -17,8 +18,7 @@ public class JacksonConfig {
 				objectMapper.registerSubtypes(PagamentoComCartao.class);
 				objectMapper.registerSubtypes(PagamentoComBoleto.class);
 				super.configure(objectMapper);								
-			};
-			
+			}			
 		};
 		return builder;		
 	}

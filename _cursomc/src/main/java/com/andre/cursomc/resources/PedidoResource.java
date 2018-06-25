@@ -1,19 +1,26 @@
 package com.andre.cursomc.resources;
 
 import java.net.URI;
+import java.util.List;
 
+import javax.transaction.Transactional;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.andre.cursomc.domain.Pedido;
+import com.andre.cursomc.domain.Produto;
+import com.andre.cursomc.dto.ProdutoDTO;
+import com.andre.cursomc.resources.utils.URL;
 import com.andre.cursomc.services.PedidoService;
 
 @RestController
@@ -29,6 +36,7 @@ public class PedidoResource {
 		return ResponseEntity.ok().body(obj);
 	}
 	
+	@Transactional
 	@RequestMapping(method=RequestMethod.POST)
 	public ResponseEntity<Void> insert(@Valid @RequestBody Pedido obj){
 		obj = service.insert(obj);
@@ -38,6 +46,7 @@ public class PedidoResource {
 				.buildAndExpand(obj.getId())
 				.toUri();
 		return ResponseEntity.created(uri).build();		
-	}
+	}	
+	
 
 }
