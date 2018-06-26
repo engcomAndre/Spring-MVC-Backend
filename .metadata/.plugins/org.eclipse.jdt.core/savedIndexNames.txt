@@ -52,7 +52,6 @@ INDEX VERSION 1.130+C:\Users\sg_av\Documents\Spring\Spring-MVC-Backend\.metadata
 3302614679.index
 3639649604.index
 288466881.index
-2720241764.index
 72252009.index
 3085642878.index
 2931784775.index
