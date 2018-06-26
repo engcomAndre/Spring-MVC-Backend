@@ -1883,3 +1883,40 @@ Java Model Exception: Java Model Status [TestConfig [in [Working copy] TestConfi
 
 !ENTRY org.eclipse.jface.text 2 0 2018-06-26 09:02:03.635
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.debug.ui 4 120 2018-06-26 10:43:58.416
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:268)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:95)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:120)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.debug.ui 4 120 2018-06-26 10:43:58.463
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:268)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:95)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:120)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-26 10:47:51.901
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sg_av\Documents\Spring\Spring-MVC-Backend\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
